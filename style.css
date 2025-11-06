@@ -55,16 +55,18 @@ header {
   align-items: center;
   gap: 10px;
   font-weight: 800;
+  
+  color:  #2B2C9A;
 }
 
-.logo {
-  width: 28px;
-  height: 28px;
+
+
+.logo img{
+  height: 35px;
   display: grid;
   place-items: center;
-  border-radius: 9px;
-  background: linear-gradient(135deg, var(--logoHairtsag), var(--nogoon));
-  color: #fff;
+  border-radius: 6px;
+
 }
 
 nav {
@@ -179,12 +181,12 @@ thead th {
 }
 
 
-.search {
+.hailt {
   position: relative;
   max-width: 360px;
 }
 
-.search input {
+.hailt input {
   width: 100%;
   padding: 10px 12px 10px 34px;
   border-radius: 12px;
@@ -192,7 +194,7 @@ thead th {
   background: var(--hairtsag3);
 }
 
-.search .i {
+.hailt .i {
   position: absolute;
   left: 10px;
   top: 50%;
